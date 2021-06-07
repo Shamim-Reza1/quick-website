@@ -1,0 +1,533 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+/* header start */
+
+header {
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: 0 3px 10px -3px rgb(0 0 0 / 20%);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 90%;
+    margin: auto;
+
+}
+
+.menu .logo {
+    flex-basis: 50%;
+}
+
+.menu .logo .img {
+    width: 80px;
+}
+
+.menu .menu_item {
+    flex-basis: 50%;
+}
+
+.menu ul {
+    text-align: right;
+}
+
+.menu .menu_item ul li {
+    display: inline-block;
+
+}
+
+.menu .menu_item ul li a {
+    padding-left: 25px;
+    color: #222;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/* header end */
+
+/* summary start */
+
+.summary {
+    width: 1200px;
+    margin: auto;
+}
+
+.summary .content {
+    text-align: center;
+}
+
+.content h1 {
+    color: #3b506c;
+    font-size: 2.4em;
+    font-weight: 700;
+    padding: 38px 0 15px 0;
+    line-height: 1.2;
+}
+
+.content h1 span {
+    color: #008aff;
+}
+
+.summary .content p {
+    color: #000;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+.summary img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* summary end */
+
+/* .project details start */
+
+.project {
+    max-width: 100%;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.our_project {
+    display: flex;
+    max-width: 50%;
+    margin: auto;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.left_area {
+
+    flex-basis: 50%;
+    text-align: right;
+    padding-right: 12px;
+
+}
+
+
+.right_area {
+
+    flex-basis: 50%;
+    padding-left: 12px;
+    text-align: left;
+}
+
+.our_project .left_area h2 {
+    color: #f15767;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.our_project .left_area p {
+
+    line-height: 1.4;
+
+}
+
+.our_project .right_area h1 {
+    color: #112857;
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+/* .project details end */
+
+/* portfolio strat */
+
+.portfolio {
+    padding-top: 40px;
+}
+
+.portfolio_item {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.project1 {
+    flex-basis: 32.33%;
+    text-align: center;
+    background-color: #ff634714;
+    padding: 58px;
+}
+
+.project1 h4 {
+    text-align: left;
+    color: #0f2666;
+}
+
+.project1 p {
+    text-align: left;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.3;
+    margin-top: 8px;
+}
+
+.project1 img {
+    width: 200px;
+    height: 135px;
+}
+
+.project2 {
+    flex-basis: 32.33%;
+    text-align: center;
+    background-color: #d0cde152;
+    padding: 58px;
+}
+
+.project2 h4 {
+    text-align: left;
+    color: #0f2666;
+}
+
+.project2 p {
+    text-align: left;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.3;
+    margin-top: 8px;
+}
+
+.project2 img {
+    width: 200px;
+}
+
+.project3 {
+    flex-basis: 32.33%;
+    text-align: center;
+    background-color: #ff64840a;
+    padding: 58px;
+}
+
+.project3 img {
+    width: 200px;
+    height: 137px;
+}
+
+.project3 h4 {
+    text-align: left;
+    color: #0f2666;
+}
+
+.project3 p {
+    text-align: left;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.3;
+    margin-top: 8px;
+}
+
+/* portfolio end */
+
+/* footer start */
+
+footer {
+    background-color: #008aff;
+    text-align: center;
+    padding: 15px;
+    width: 95%;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 5px;
+}
+
+footer h6 {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+footer h6 span {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* fo@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+/* header start */
+
+header {
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: 0 3px 10px -3px rgb(0 0 0 / 20%);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 90%;
+    margin: auto;
+
+}
+
+.menu .logo {
+    flex-basis: 50%;
+}
+
+.menu .logo .img {
+    width: 80px;
+}
+
+.menu .menu_item {
+    flex-basis: 50%;
+}
+
+.menu ul {
+    text-align: right;
+}
+
+.menu .menu_item ul li {
+    display: inline-block;
+
+}
+
+.menu .menu_item ul li a {
+    padding-left: 25px;
+    color: #222;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/* header end */
+
+/* summary start */
+
+.summary {
+    width: 1200px;
+    margin: auto;
+}
+
+.summary .content {
+    text-align: center;
+}
+
+.content h1 {
+    color: #3b506c;
+    font-size: 2.4em;
+    font-weight: 700;
+    padding: 38px 0 15px 0;
+    line-height: 1.2;
+}
+
+.content h1 span {
+    color: #008aff;
+}
+
+.summary .content p {
+    color: #000;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+.summary img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* summary end */
+
+/* .project details start */
+
+.project {
+    max-width: 100%;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.our_project {
+    display: flex;
+    max-width: 50%;
+    margin: auto;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.left_area {
+
+    flex-basis: 50%;
+    text-align: right;
+    padding-right: 12px;
+
+}
+
+
+.right_area {
+
+    flex-basis: 50%;
+    padding-left: 12px;
+    text-align: left;
+}
+
+.our_project .left_area h2 {
+    color: #f15767;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.our_project .left_area p {
+
+    line-height: 1.4;
+
+}
+
+.our_project .right_area h1 {
+    color: #112857;
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+/* .project details end */
+
+/* portfolio strat */
+
+.portfolio {
+    padding-top: 40px;
+}
+
+.portfolio_item {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.project1 {
+    flex-basis: 32.33%;
+    text-align: center;
+    background-color: #ff634714;
+    padding: 58px;
+}
+
+.project1 h4 {
+    text-align: left;
+    color: #0f2666;
+}
+
+.project1 p {
+    text-align: left;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.3;
+    margin-top: 8px;
+}
+
+.project1 img {
+    width: 200px;
+    height: 135px;
+}
+
+.project2 {
+    flex-basis: 32.33%;
+    text-align: center;
+    background-color: #d0cde152;
+    padding: 58px;
+}
+
+.project2 h4 {
+    text-align: left;
+    color: #0f2666;
+}
+
+.project2 p {
+    text-align: left;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.3;
+    margin-top: 8px;
+}
+
+.project2 img {
+    width: 200px;
+}
+
+.project3 {
+    flex-basis: 32.33%;
+    text-align: center;
+    background-color: #ff64840a;
+    padding: 58px;
+}
+
+.project3 img {
+    width: 200px;
+    height: 137px;
+}
+
+.project3 h4 {
+    text-align: left;
+    color: #0f2666;
+}
+
+.project3 p {
+    text-align: left;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.3;
+    margin-top: 8px;
+}
+
+/* portfolio end */
+
+/* footer start */
+
+footer {
+    background-color: #008aff;
+    text-align: center;
+    padding: 15px;
+    width: 95%;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 5px;
+}
+
+footer h6 {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+footer h6 span {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* footer end */
